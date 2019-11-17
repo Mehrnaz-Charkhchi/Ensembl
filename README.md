@@ -7,7 +7,7 @@
 
 
 ## Pre-requirements
-[Install docker and docker compose:][3]
+[Install docker and docker compose][3]
 
 [3]: https://docs.docker.com/compose/install/
 
@@ -20,13 +20,13 @@ Run in terminal:
 - `$ sudo docker-compose -f docker-compose.yml up -d`
 
 ## Swagger interface
-[Swagger API interface can be accessed via url:][1]
+[Swagger API interface][1]
 
 [1]: http://0.0.0.0:5000/api/
 
 ## API interface
 
-[API interface can be accessed via url:][2]
+[API interface][2]
 
 [2]: http://0.0.0.0:5000/api/genes?lookup=BRCA2&species=aotus_nancymaae
 
