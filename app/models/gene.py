@@ -1,5 +1,4 @@
 from peewee import Model, CharField, OperationalError
-
 from app.utils.db_connection import mysql_db_connection
 from app.utils.error_response import database_not_found_error_response, parameter_400_error_response
 from app.utils.result_templates import gene_result_template
