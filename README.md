@@ -1,4 +1,4 @@
-### Search interface
+## Enseml Search API interface
 
 - Connect to a Mysql app using Flask.
 - Search in Mysql and retrieve data.
@@ -7,8 +7,9 @@
 
 
 ## Pre-requirements
-Install docker and docker compose:
-https://docs.docker.com/compose/install/
+[Install docker and docker compose:][3]
+
+[3]: https://docs.docker.com/compose/install/
 
 ## How to deploy for development
 Run in terminal:
