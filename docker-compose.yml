@@ -1,0 +1,39 @@
+version: '3.1'
+services:
+    nginx:
+        build:
+          context: ./nginx/
+          dockerfile: Dockerfile
+        container_name: ensembl_nginx
+        depends_on:
+            - flask
+
+        networks:
+            - ensembl-production-network
+        ports:
+            - 80:80
+    flask:
+        env_file:
+          - ./.env
+        build:
+            context: ./
+            dockerfile: Dockerfile
+        image: flask:0.0.1
+        container_name: ensembl_flask
+        volumes:
+            - ./:/ensembl/
+        environment:
+            - FLASK_APP=/ensembl/main.py
+            - SECRET_KEY=EnsemblSecretForLocal
+            - ENV=Development
+        command: flask run --host=0.0.0.0
+        networks:
+            ensembl-production-network:
+                aliases:
+                    - flask-app
+        ports:
+            - 5000:5000
+        restart: always
+
+networks:
+    ensembl-production-network:

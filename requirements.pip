@@ -1,0 +1,8 @@
+Flask==1.1.1
+Flask-MySQL==1.4.0
+# Flask-RESTful==0.3.7
+peewee==3.1.0
+PyMySQL==0.9.3
+six==1.13.0
+flask-restplus
+requests

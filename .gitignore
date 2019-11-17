@@ -1,0 +1,10 @@
+.DS_Store
+env
+*.pyc
+*.pyo
+env/
+env*
+.cache/
+.pytest_cache/
+.idea/
+docs/_build/
