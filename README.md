@@ -30,6 +30,13 @@ Run in terminal:
 
 [2]: http://0.0.0.0:5000/api/genes?lookup=BRCA2&species=aotus_nancymaae
 
+## Issues
+
+[Answers to the second part of the question.][4]
+
+[4]: https://github.com/Mehrnaz-Charkhchi/Ensembl/issues
+
+
 ## How to run unit tests
 `$ sudo docker exec -it ensembl_flask python -m unittest`
 
