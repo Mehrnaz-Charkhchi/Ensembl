@@ -2,7 +2,7 @@
 
 - Connect to a Mysql app using Flask.
 - Search in Mysql and retrieve data.
-- Rest API is provided
+- Rest API and Swagger interface is provided
 
 
 
