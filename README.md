@@ -32,7 +32,7 @@ Run in terminal:
 
 ## Issues
 
-[Answers to the second part of the question.][4]
+[Answers to the second part of the challenge.][4]
 
 [4]: https://github.com/Mehrnaz-Charkhchi/Ensembl/issues
 
