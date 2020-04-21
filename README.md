@@ -16,7 +16,7 @@ Run in terminal:
 - `$ git clone https://github.com/Mehrnaz-Charkhchi/Ensembl.git`
 - `$ cd Ensembl`
 - `$ sudo docker-compose -f docker-compose.yml up`
-- To run as a demon run:
+- To run as a daemon run:
 - `$ sudo docker-compose -f docker-compose.yml up -d`
 
 ## Swagger interface
